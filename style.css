@@ -1,0 +1,26 @@
+body{
+}
+
+.container{
+  
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    width:100%;
+    
+
+}
+.container > div{
+    width: 12%;
+    height: 70px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
